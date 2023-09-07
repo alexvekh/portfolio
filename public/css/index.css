@@ -27,10 +27,10 @@ body {
 }
 
 .round {
-  margin-top: -1px;
+  margin: 0;
   height: 24px;
   width: 24px;
-  border-radius: 11px;
+  border-radius: 12px;
 }
 
 .buttoned {
@@ -65,24 +65,24 @@ main {
   opacity: 1;
   transition: opacity 0.3s ease-in-out;
 }
-.nav2__link {
-  border: 1px solid rgb(150, 150, 150);
-  border-radius: 24px;
-  text-decoration: none;
-  color:black;
-  opacity: 1;
-  transition: opacity 0.3s ease-in-out;
-  height: 26px;
-  max-width: 120px;
-  font-size: 14px;
-  margin: 2px;
-  overflow: hidden;
-}
-
 .nav__link:hover {
   color: #003c79;
   opacity: 0.7;
 }
+
+.badge {
+  border: 1px solid rgb(150, 150, 150);
+  border-radius: 25px;
+  height: 26px;
+  max-width: 120px;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  padding-right: 5px;
+  overflow: hidden;
+}
+
+
 
 /* .projects {
   display: grid;
@@ -92,7 +92,8 @@ main {
 .nav {
   display: flex;
   flex-direction: row;
-  margin: 5px;
+  margin-top: 10px;
+  gap: 5px;
   
 }
 .nav__item {
@@ -110,7 +111,7 @@ main {
   border-right: none;
 }
 
-.nav__button {
+nav__button {
   border: none;
   border-radius: 12px;
   margin: 0;
