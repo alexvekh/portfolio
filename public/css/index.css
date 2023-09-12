@@ -82,6 +82,12 @@ main {
   overflow: hidden;
 }
 
+.badge--all {
+  background-color: rgb(31, 100, 250);
+  color: white;
+  padding: 0 20px;
+  border-radius: 25px;
+}
 
 
 /* .projects {
@@ -121,4 +127,27 @@ nav__button {
 .hdl { background:rgb(255, 94, 0);} 
 .bts { background:rgb(114, 9, 250); } 
 .htm { background:rgb(142, 142, 143); }
+
+.none {
+  display: none;
+}
+
+main {
+  margin-top: 20px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: 2fr 3fr 1fr;
+}
+
+.project__image {
+  height: 200px;
+  width: 200px;
+}
 
