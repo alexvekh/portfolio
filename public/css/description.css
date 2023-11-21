@@ -1,0 +1,75 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 20px 120px;
+  line-height: 1.6;
+  color: #333; 
+}
+
+h1 {
+  color: #3498db;
+}
+
+.developer {
+  font-size: 1.17em;
+  font-weight: bold;
+}
+
+.author {
+  font-size: 1.17em;
+}
+
+.project {
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  gap: 20px;
+}
+
+.project__technologies h3 {
+  display: flex;
+  margin-right: 10px;
+
+}
+
+.project__technologies ul {
+  list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex; /* Set display to flex for the ul */
+
+}
+
+.project__technologies ul li {
+  margin-bottom: 10px;
+            margin-right: 10px;
+
+}
+
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #2ecc71;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: square;
+  margin-left: 20px;
+  gap: 20px;
+}
+
+img {
+  
+  height: 941px;
+  max-height: 80vh;
+  width: auto;
+  border: 2px solid black;
+  border-radius: 25px;
+  margin-bottom: 20px;
+
+}
