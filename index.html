@@ -1,212 +1,87 @@
 <html>
   <head>
-    <title>
-      About Oleksiy Verkhulevskyy
-    </title>
+    
     <meta charset='utf-8' />  
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
 			integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link href='public/css/index.css' rel='stylesheet' /> 
+    <title> Oleksiy Verkhulevskyy portfolio </title>
   </head>
 
   <body>
     <header>
       <div class="header">
-        <div class="header__item header__item--active"> <a class="header__link" href="index.html"><img class="round" src="public/img/me.jpg" alt="Me"> Oleksiy Verkhulevskyy</a> </div>
-        <div class="header__item"> <a class="header__link" href="projects.html">Projects</a></div>
-        <div class="header__item"> <a class="header__link" href="resume.html">Resume</a> </div>
-        <div class="header__item"> <a class="header__link" href="contacts.html">Contacts</a></div>
+        <a class="header__link" href="resume.html"><div class="header__item"><img class="round" src="public/img/Oleksiy_Verkhulevskyy.png" alt="Me" /><span> &nbsp; Oleksiy Verkhulevskyy</span></div></a>
+        <a class="header__link" href="index.html"><div class="header__item header__item--active"> Projects</div></a>
       </div>
     </header>
+        <!-- <nav class="nav">
+          <a class="nav__link badge" href="projects/html.html">
+            <div class="nav__buton nav__button--active">
+              <img class="round" src="public/img/html-logo.png" alt=""> 
+              HTML</div></a>
+          <a class="nav__link badge" href="projects/html.html">
+            <div class="nav__buton nav__button--active">
+              <img class="round" src="public/img/css-logo.png" alt=""> 
+              CSS </div></a>
+          <a class="nav__link badge" href="projects/html.html">
+            <div class="nav__buton nav__button--active">
+              <img class="round" src="public/img/js-logo.png" alt=""> 
+              JavaScript </div></a>
+          <a class="nav__link badge" href="projects/html.html">
+            <div class="nav__buton nav__button--active">
+              <img class="round" src="public/img/java-logo.png" alt=""> 
+              java </div></a>
+          <a class="nav__link badge" href="projects/html.html">
+            <div class="nav__buton nav__button--active">
+              <img class="round" src="public/img/bootstrap-logo.png" alt=""> 
+              Bootstrap </div></a>
+          <a class="nav__link badge" href="projects/html.html">
+            <div class="nav__buton nav__button--active">
+              <img class="round" src="public/img/node-logo.png" alt=""> 
+              node </div></a>
+          <a class="nav__link badge none" href="projects/html.html">
+            <div class="nav__buton nav__button--active">
+              <img class="round" src="public/img/react-logo.png" alt=""> 
+              React </div></a>
+          <a class="nav__link badge" href="projects/html.html">
+            <div class="nav__buton nav__button--active">
+              <img class="round" src="public/img/react2-logo.png" alt=""> 
+              React </div></a>
+          <a class="nav__link badge" href="projects/html.html">
+            <div class="nav__buton nav__button--active">
+              <img class="round" src="public/img/spring-logo.png" alt=""> 
+              Spring </div></a>            
+          <a class="nav__link badge none" href="projects/html.html">
+            <div class="nav__buton nav__button--active">
+              <img class="round" src="public/img/angular-logo.png" alt=""> 
+              Angular </div></a>
+          <a class="nav__link badge--all" href="projects/html.html">
+            <div class="nav__buton nav__button--active">
+              All </div></a> 
+        </nav> -->
+    
+    <main>  
+      <div>
+        <div class="projects">
+          <div class="project">
+            <div class="project__image"><img height="200px" width="200px" src="public/img/project-resume.png" alt=""></div>
+            <div class="project__description">
+              <h2>Resume</h2>
+              <p>Description</p>
+            </div>
+            <div class="project__tech"></div>
 
-    <main>
-      <style>
-        .hdl { background:rgb(255, 94, 0);} .bts {
-        background:rgb(114, 9, 250); } .htm {
-        background:rgb(142, 142, 143); }
-      </style>
-    
-      <h1>Page list</h1>
-      <p><i>This is a summary of a project that demonstrates my
-          capabilities as a layout designer</i></p>
-    
-      <div class='row g-2'>
-        <div class='col-4'>
-          <div class='card'>
-            <div class='card-header text-center'>
-              Resume
-              <div><span
-                  class='badge htm rounded-pill mt-0'
-                >HTML</span>
-                <span
-                  class='badge hdl rounded-pill mt-0'
-                >Handlebars</span></div>
-    
-            </div>
-            <div class='card-body d-grid gap-2'>
-    
-              <a
-                type='button'
-                class='btn btn-primary btn-sm'
-                href='/summary'
-              > Summary </a>
-    
-              <a
-                type='button'
-                class='btn btn-primary btn-sm'
-                href='/skills'
-              > Skills </a>
-    
-              <a
-                type='button'
-                class='btn btn-primary btn-sm'
-                href='/education'
-              > Education </a>
-    
-              <a
-                type='button'
-                class='btn btn-primary btn-sm'
-                href='/work'
-              > Work </a>
-    
-            </div>
-          </div>
-        </div>
-    
-        <div class='col-4'>
-          <div class='card'>
-            <div class='card-header text-center'>
-              Online Shop
-              <div><span
-                  class='badge hdl rounded-pill mt-0'
-                >Handlebars</span>
-    
-                <span
-                  class='badge bts rounded-pill mt-0'
-                >Bootstrap</span></div>
-            </div>
-            <div class='card-body d-grid gap-2'>
-    
-              <a
-                type='button'
-                class='btn btn-primary btn-sm'
-                href='/shophome'
-              > Shop Home </a>
-    
-              <a
-                type='button'
-                class='btn btn-primary btn-sm'
-                href='/shopnews'
-              > Shop News </a>
-              <a
-                type='button'
-                class='btn btn-primary btn-sm'
-                href='/shopproduct'
-              > Product </a>
-              <a
-                type='button'
-                class='btn btn-primary btn-sm'
-                href='/shoporder'
-              > Order </a>
-              <a
-                type='button'
-                class='btn btn-primary btn-sm'
-                href='/shopcart'
-              > Cart </a>
-              <a
-                type='button'
-                class='btn btn-primary btn-sm'
-                href='/shopcatalog'
-              > Catalog </a>
-              <a
-                type='button'
-                class='btn btn-primary btn-sm'
-                href='/shopprofile'
-              > Profile </a>
-              <a
-                type='button'
-                class='btn btn-primary btn-sm'
-                href='/shopreview'
-              > Shop review </a>
-    
-            </div>
-          </div>
-        </div>
-    
-        <div class='col-4'>
-          <div class='card'>
-            <div class='card-header text-center'>
-              Other pages
-              <div><span
-                  class='badge hdl rounded-pill mt-0'
-                >Handlebars</span>
-    
-                <span
-                  class='badge bts rounded-pill mt-0'
-                >Bootstrap</span></div>
-            </div>
-            <div class='card-body d-grid gap-2'>
-    
-              <a
-                type='button'
-                class='btn btn-primary btn-sm'
-                href='/bio'
-              > Bio </a>
-              <a
-                type='button'
-                class='btn btn-primary btn-sm'
-                href='/car'
-              > Car </a>
-              <a
-                type='button'
-                class='btn btn-primary btn-sm'
-                href='/facebook'
-              > Facebook </a>
-              <a
-                type='button'
-                class='btn btn-primary btn-sm'
-                href='/js'
-              > Js </a>
-              <a
-                type='button'
-                class='btn btn-primary btn-sm'
-                href='/mac'
-              > Mac </a>
-              <a
-                type='button'
-                class='btn btn-primary btn-sm'
-                href='/person'
-              > Person </a>
-              <a
-                type='button'
-                class='btn btn-primary btn-sm'
-                href='/program'
-              > Program </a>
-              <a
-                type='button'
-                class='btn btn-primary btn-sm'
-                href='/task21'
-              > Task 21 </a>
-              <a
-                type='button'
-                class='btn btn-primary btn-sm'
-                href='/task22'
-              > Task 22 </a>
-              <a
-                type='button'
-                class='btn btn-primary btn-sm'
-                href='/task31'
-              > Task 31 </a>
-              <a
-                type='button'
-                class='btn btn-primary btn-sm'
-                href='/web'
-              > Web </a>
-    
-            </div>
           </div>
         </div>
       </div>
+
+
+      </div>
+    
+
+
+
     
     </main>
     

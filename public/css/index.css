@@ -1,10 +1,13 @@
 html {
   max-width: 1000px;
+  margin: 10px auto;
+  background: rgb(241, 241, 242);
 }
 
 body {
   margin: 32px;
   background: #fff;
+  margin: auto;
 }
 
 .header {
@@ -13,9 +16,12 @@ body {
 }
 
 .header__item {
-  padding: 5px 20px 5px 20px;
+  padding: 5px 20px;
   border-bottom: 1px solid rgb(150, 150, 150);
+  height: 40px;
   text-align: center;
+  justify-content: center;
+  background: rgb(241, 241, 242);
 }
 
 .header__item--active {
@@ -24,6 +30,7 @@ body {
   border-right: 1px solid rgb(150, 150, 150);
   border-bottom: none;
   font-weight: 600;
+  background: white;
 }
 
 .round {
@@ -33,10 +40,7 @@ body {
   border-radius: 12px;
 }
 
-.buttoned {
-  height: 24px;
-  width: 85px;
-}
+
 
 
 .header__link {
