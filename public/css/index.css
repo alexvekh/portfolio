@@ -22,6 +22,7 @@ body {
   text-align: center;
   justify-content: center;
   background: rgb(241, 241, 242);
+  font-size: 20px;
 }
 
 .header__item--active {
@@ -147,7 +148,8 @@ main {
 
 .project {
   display: grid;
-  grid-template-columns: 2fr 3fr 1fr;
+  grid-template-columns: 1fr 4fr 1fr;
+  gap: 20px;
 }
 
 .project__image {
@@ -155,3 +157,23 @@ main {
   width: 200px;
 }
 
+.project__phone-image img{
+  padding: 2px;
+  height: 200px;
+  margin: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.project__link .project {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.project__link .project:hover {
+  text-decoration: none;
+  background: rgb(246, 246, 246);
+
+  opacity: 0.7;
+}
