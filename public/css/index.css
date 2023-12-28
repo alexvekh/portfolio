@@ -144,6 +144,7 @@ main {
 .projects {
   display: flex;
   flex-direction: column;
+  gap: 20px;
 }
 
 .project {
@@ -171,9 +172,14 @@ main {
   transition: color 0.3s;
 }
 
-.project__link .project:hover {
+.project__link:hover {
   text-decoration: none;
   background: rgb(246, 246, 246);
+  opacity: 0.7;
+}
 
+.project:hover {
+  text-decoration: none;
+  background: rgb(246, 246, 246);
   opacity: 0.7;
 }
